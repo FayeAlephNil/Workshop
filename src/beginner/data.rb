@@ -16,7 +16,7 @@ end
 
 # A function to print each character of a string
 def printChars(s)
-  printAll s.split(//)
+  printAll s.chars
 end
 
 # Print the chars of the second item (item in first index) of list
